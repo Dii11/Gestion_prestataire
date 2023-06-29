@@ -1,0 +1,144 @@
+$gradient: linear-gradient(to bottom , rgba(2,0,36,1) , rgba(1,1,59,1) 41%, rgb(8, 79, 93) );
+$couleur1: rgba(2,0,36,1);
+$couleur2:rgba(4,126,150,1);
+$border:rgba(181, 180, 180, 0.266);
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+//ensemble navigation et page des routes
+.ensemble{
+    display: grid;
+    grid-template-columns: 15% 85%;
+    height: 100vh;
+    
+}
+
+//navigation
+.navigation{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;background: $gradient;
+    padding: 20% 10% 20% 10%;
+    a{
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        font-size: large;
+        color: whitesmoke;
+        gap: 10px;
+        padding: 5% 0% 5% 0%;
+        &:hover{
+            border: 2px solid whitesmoke;
+            border-radius: 5px;
+            padding: 5% 0% 5% 0%;
+        }
+        &:focus{
+            background-color: whitesmoke;
+            color: $couleur1;
+            padding: 5% 0% 5% 0%;
+    
+        }
+
+    }
+}
+//entete header.jsx
+.entete{
+    margin: 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    .bouton_filtre{
+       display: flex;
+       gap:20px;
+    }
+    input{
+        width: 400px;
+    }
+}
+
+//page médecin.js
+.contenu{
+    margin: 2%;
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    .liste{
+        display: flex;
+        justify-content: space-between;
+    }
+    .ensemble_chart{
+        display: flex;
+        flex-direction: row;
+        gap: 1%;
+        .ensemble_total{
+            display: flex;
+            justify-content: space-around;
+            gap: 2%;
+         .total{
+            width: 50%;
+            height: 70%;
+            padding: 5%;
+            border: 1px $border solid;
+            background-color: $border;
+            border-radius: 10px;
+         }
+        }
+    }
+    
+}
+//formulaire
+.formulaire{
+    padding: 0% 0% 1% 0%;
+    border-bottom:$border solid  2px;
+  form{ display: flex;
+   gap: 20px;
+input{
+    font-size: smaller;
+}
+.MuiFormControl-root{
+    width: 15%;
+}
+}
+}
+.liste{
+    margin-top: 10px;
+    .MuiSvgIcon-root{
+        box-shadow: 3px 3px $border;
+    }
+}
+//choix du médecin pour la liste des patients
+.MuiFormControl-root{
+    width: 300px;
+}
+
+//page prestation
+.prestation{
+    margin: 5% 5% 0% 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    form{
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        border-bottom: 2px solid $border;
+        .MuiFormControl-root{
+            margin-bottom: 1%;
+            input{
+                width: 10px;
+            }
+        }
+    }
+    .titre{
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+}
+//page dahsboard
+table{
+    margin-top: 2%;
+}

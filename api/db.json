@@ -1,0 +1,122 @@
+{
+  "medecin": [
+    {
+      "nom": "Navalona",
+      "tauxJournalier": "4000000",
+      "id": 4
+    },
+    {
+      "nom": "makalioka",
+      "tauxJournalier": "1000000",
+      "id": 5
+    },
+    {
+      "nom": "Diamondra",
+      "tauxJournalier": "456700",
+      "id": 6
+    },
+    {
+      "nom": "Mamy",
+      "tauxJournalier": "280000",
+      "id": 7
+    }
+  ],
+  "patient": [
+    {
+      "id": 1,
+      "nom": "andry",
+      "adresse": "ISE 3020/567 Bis Fianarantsoa"
+    },
+    {
+      "nom": "makalioka",
+      "adresse": "Antananarivo",
+      "id": 2
+    }
+  ],
+  "traitement": [
+    {
+      "traitement": {
+        "choixPatient": 1,
+        "choixMedecin": 6,
+        "nombreJour": "2",
+        "montant": 913400,
+        "dateAjout": "2023-06-23",
+        "nomPatient": "andry",
+        "adressePatient": "ISE 3020/567 Bis Fianarantsoa",
+        "nomMedecin": "Diamondra",
+        "tauxJournalier": "456700"
+      },
+      "id": 4
+    },
+    {
+      "traitement": {
+        "choixPatient": 2,
+        "choixMedecin": 6,
+        "nombreJour": "1",
+        "montant": 456700,
+        "dateAjout": "2023-06-09",
+        "nomPatient": "makalioka",
+        "adressePatient": "Antananarivo",
+        "nomMedecin": "Diamondra",
+        "tauxJournalier": "456700"
+      },
+      "id": 5
+    },
+    {
+      "traitement": {
+        "choixPatient": 2,
+        "choixMedecin": 4,
+        "nombreJour": "2",
+        "montant": 8000000,
+        "dateAjout": "2023-06-16",
+        "nomPatient": "makalioka",
+        "adressePatient": "Antananarivo",
+        "nomMedecin": "Navalona",
+        "tauxJournalier": "4000000"
+      },
+      "id": 6
+    },
+    {
+      "traitement": {
+        "choixPatient": 1,
+        "choixMedecin": 7,
+        "nombreJour": "3",
+        "montant": 840000,
+        "dateAjout": "2023-06-23",
+        "nomPatient": "andry",
+        "adressePatient": "ISE 3020/567 Bis Fianarantsoa",
+        "nomMedecin": "Diamondra",
+        "tauxJournalier": "280000"
+      },
+      "id": 7
+    },
+    {
+      "traitement": {
+        "choixPatient": 1,
+        "choixMedecin": 7,
+        "nombreJour": "1",
+        "montant": 280000,
+        "dateAjout": "2023-06-01",
+        "nomPatient": "andry",
+        "adressePatient": "ISE 3020/567 Bis Fianarantsoa",
+        "nomMedecin": "Mamy",
+        "tauxJournalier": "280000"
+      },
+      "id": 8
+    },
+    {
+      "traitement": {
+        "choixPatient": 1,
+        "choixMedecin": 6,
+        "nombreJour": "4",
+        "montant": 1826800,
+        "dateAjout": "2023-07-09",
+        "nomPatient": "andry",
+        "adressePatient": "ISE 3020/567 Bis Fianarantsoa",
+        "nomMedecin": "Diamondra",
+        "tauxJournalier": "456700"
+      },
+      "id": 9
+    }
+  ]
+}
